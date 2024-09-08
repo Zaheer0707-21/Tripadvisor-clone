@@ -1,0 +1,877 @@
+  * {
+    margin: 0%;
+    padding: 0%;
+
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .navbar_div {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid black 1px;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 73%;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    top: 0%;
+    z-index: 1;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar__title {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    
+
+  }
+
+  .navbar__list {
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+
+
+  }
+
+  .navbar__end {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+
+
+  }
+  .Signin{
+    width: 70px;
+    color: #34E0A1;
+    background-color: #301D49;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px;
+    
+  }
+
+  .Signin:hover{
+
+    background-color: #34E0A1;
+    color: #301D49;
+  }
+
+
+  .entry {}
+
+  .entry__h1_1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 50px;
+
+  }
+
+  .entry__p {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+
+  }
+  .entry__para_1{
+    cursor: pointer;
+    border: 2px solid white;
+
+    
+  }
+  .entry__para_1:hover {
+    color: #34E0A1;
+    border-bottom: 2px solid black;
+  }
+  .entry__para_2{
+    cursor: pointer;
+    border: 2px solid white;
+
+    
+  }
+  .entry__para_2:hover {
+    color: #34E0A1;
+    border-bottom: 2px solid black;
+  }
+  .entry__para_3{
+    cursor: pointer;
+    border: 2px solid white;
+
+    
+  }
+  .entry__para_3:hover {
+    color: #34E0A1;
+    border-bottom: 2px solid black;
+  }
+  .entry__para_4{
+    cursor: pointer;
+    border: 2px solid white;
+
+    
+  }
+  .entry__para_4:hover {
+    color: #34E0A1;
+    border-bottom: 2px solid black;
+  }
+  .entry__para_5{
+    cursor: pointer;
+    border: 2px solid white;
+
+    
+  }
+  .entry__para_5:hover {
+    color: #34E0A1;
+    border-bottom: 2px solid black;
+  }
+  .entry__para_6{
+    cursor: pointer;
+    border: 2px solid white;
+
+    
+  }
+  .entry__para_6:hover {
+    color: #34E0A1;
+    border-bottom: 2px solid black;
+  }
+
+  .search__div {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .search__box {
+    display: flex;
+    box-shadow: rgba(226, 224, 224, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 50%;
+    gap: 20px;
+    align-items: center;
+    border: 2px rgb(175, 175, 175) solid;
+    border-radius: 50px;
+    padding: 5px;
+  }
+
+  .search__box input {
+    width: 80%;
+    border: none;
+    font-size: 15px;
+  }
+
+  .search__box input:focus {
+    outline: none;
+  }
+
+  .search__para {
+    background-color: #34E0A1;
+    padding: 10px;
+    border-radius: 50px;
+    width: 10%;
+    text-align: center;
+  }
+
+  .search__box i {
+    margin-left: 10px;
+  }
+
+  .sale__box {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    position: relative;
+
+  }
+
+  .sale__box_1 {
+    width: 73%;
+    height: 428px;
+    border-radius: 15px;
+    background-color: #D7D8FA;
+    position: relative;
+
+
+
+  }
+
+  .sale_img_1 {
+    height: 100%;
+    width: 100%;
+  }
+
+  .info_box_1 {
+    height: 250px;
+    color: #301D49;
+    width: 450px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-size: 20px;
+    cursor: pointer;
+
+  }
+
+  .info__box_sub {
+    padding: 10px;
+
+  }
+
+  .info__box_sub p {
+    background-color: #34E0A1;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 25px;
+
+  }
+
+  .sale__box_0_2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+  }
+
+  .sale__box_2 {
+    gap: 20px;
+    position: relative;
+
+    display: flex;
+    padding: 10px;
+    width: 73%;
+    height: 190px;
+    border-radius: 15px;
+    background-color: #FAF1ED;
+
+  }
+
+  .sale_box_img_2 {
+    height: 90%;
+    width: 200px;
+    border-radius: 10px;
+
+
+
+  }
+
+  .sale_box_b {
+    position: absolute;
+    width: 60%;
+    left: 230px;
+    top: 60px;
+    cursor: pointer;
+    color: #301D49;
+
+
+
+  }
+
+
+  .adventure {
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .adventuer_image_div::-webkit-scrollbar {
+    display: none;
+  }
+
+  .adventuer_image_div {
+    width: 73%;
+    height: 350px;
+cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: scroll;
+  }
+
+
+  .adv__img1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 18px;
+    
+    color: white;
+    ;
+
+
+  }
+  .adv__img{
+    position: relative;
+
+  }
+
+  .adv_head{
+    position: absolute;
+    left: 25px;
+    top: 230px;
+    
+  }
+
+  .adv__img i{
+    position: absolute;
+   top: 20px;
+   right: 20px;
+   color: #301D49;
+   font-size: 30px;
+   cursor: pointer;
+
+  }
+
+  .adv__img i:hover{
+    color: #34E0A1; ;
+
+
+  }
+
+  .imgs1 {
+
+
+    height: 275px;
+    width: 275px;
+    border-radius: 10px;
+
+  }
+
+  .chennai {
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+
+  .adventure__images_div2::-webkit-scrollbar {
+    display: none;
+  }
+
+  .adventure__images_div2 {
+    width: 73%;
+    height: 420px;
+
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: scroll;
+  }
+
+
+  .imgs2 {
+
+
+    height: 275px;
+    width: 275px;
+    border-radius: 10px;
+  }
+
+
+
+  .adv__img2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+
+  }
+
+
+  .explore::-webkit-scrollbar {
+    display: none;
+  }
+
+  .explore {
+    width: 100%;
+    height: 450px;
+    background-color: #FAF1ED;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 30px;
+
+  }
+
+  .exp_h1 {
+    text-align: center;
+  }
+
+  .exp__img {
+    width: 300px;
+    padding: 10px;
+
+
+  }
+
+  .exp1 {
+    height: 275px;
+    width: 300px;
+    border-radius: 10px;
+  }
+
+
+  .hotel__img__div {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .hotel__img1 {
+    width: 73%;
+    height: 500px;
+    background-color: bisque;
+    border-radius: 20px;
+
+
+
+  }
+
+  .hotal {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+
+  .hotel_title {
+    position: absolute;
+    width: 60%;
+    height: 150px;
+    color: white;
+    top: 350px;
+    left: 250px;
+
+  }
+
+  .hp {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    color: black;
+    width: 25%;
+    height: 30px;
+
+
+  }
+
+  .travel__div {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+  }
+
+
+  .travel {
+    width: 73%;
+    height: 595px;
+    background-color: #F2ECF9
+  }
+
+  .tr_img {
+    padding: 20px;
+    height: 90%;
+
+  }
+
+  .tr_title {
+    height: 300px;
+    width: 300px;
+
+    position: absolute;
+    top: 150px;
+    right: 300px;
+
+
+  }
+
+  .tp {
+
+    text-align: center;
+    background-color: #301D49;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    width: 40%;
+  }
+
+  .awards {
+    display: flex;
+    position: relative;
+
+    height: 590px;
+    background-color: #FFF7E1
+  }
+
+  .award__title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    left: 220px;
+    top: 120px;
+    font-size: 20px;
+
+
+
+  }
+
+  .at_img {
+    height: 90px;
+    width: 80px;
+
+  }
+
+  .ap {
+
+    text-align: center;
+    background-color: #301D49;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    width: 40%;
+
+  }
+
+  .awards__img {
+    display: flex;
+    justify-content: center;
+
+    height: 100%;
+
+  }
+
+  .awa__img {
+    width: 73%;
+    height: 100%;
+
+
+
+  }
+
+
+  .footer__div {
+    display: flex;
+    justify-content: center;
+    height: 370px;
+    background-color: #FAF1ED
+  }
+
+  .footer {
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 30px;
+    position: relative;
+
+
+
+
+  }
+
+  .footer__p1 {}
+
+  .footer__p2 {}
+
+  .footer__p3 {}
+
+  .footer__p4 {}
+
+  .footer__end {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 10px;
+    gap: 20px;
+
+
+
+  }
+
+  .end {
+    width: 70px;
+    height: 70px;
+
+  }
+
+  .a{
+    height: 30px;
+    width: 150px;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px black solid;
+
+}
+  @media screen and (max-width:800px) {
+
+    body{
+      font-size: 15px;
+    }
+    .navbar__list {
+      display: none;
+    }
+
+    
+
+    .sale_box_b {
+    
+      display: none;
+
+    }
+
+    .chennai {
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+
+    .adventure__images_div2 {
+      margin-left: 0%;
+      width: 100%;
+    }
+
+    .navbar {
+      width: 100%;
+    }
+
+    .adventure {
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+
+    .adventuer_image_div {
+      margin-left: 0%;
+      width: 100%;
+    }
+
+    .hotel__img__div {
+      display: none;
+    }
+
+    .awards {
+      display: none;
+    }
+    .travel__div{
+      display: none;
+      
+    }
+    .travel {
+      width: 100%;
+    }
+  
+    .tr_title {
+     display: none;
+
+    }
+
+    .tp {
+      display: none;
+    }
+
+    .footer__end {
+      display: none;
+    }
+
+    .footer__p3 {
+      display: none;
+
+    }
+
+    .sale__box_1 {
+      width: 100%;
+    }
+
+    .info_box_1 {
+      height: 250px;
+      color: #301D49;
+      width: 200px;
+      position: absolute;
+      top: 100px;
+      left: 50px;
+
+
+      font-size: 15px;
+    }
+
+    .entry__para_5 {
+      display: none;
+    }
+
+    .entry__para_6 {
+      display: none;
+    }
+    .sale__box_2 {
+          width: 100%;
+    }
+      
+    .search__box {
+      
+      
+      width: 90%;
+      gap: 20px;
+      align-items: center;
+      border: 2px rgb(175, 175, 175) solid;
+      border-radius: 50px;
+      padding: 5px;
+    }
+
+    
+  }
+   
+
+
+
+
+
+
+
+
+  @media screen and (max-width:600px) {
+
+    body{
+      font-size: 10px;
+    }
+    .navbar__list {
+      display: none;
+    }
+
+    .navbar__end {
+      display: none;
+    }
+
+    .sale_box_b {
+    
+      display: none;
+
+    }
+
+    .chennai {
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+
+    .adventure__images_div2 {
+      margin-left: 0%;
+      width: 100%;
+    }
+
+    .navbar {
+      width: 100%;
+    }
+
+    .adventure {
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+
+    .adventuer_image_div {
+      margin-left: 0%;
+      width: 100%;
+    }
+
+    .hotel__img__div {
+      display: none;
+    }
+
+    .awards {
+      display: none;
+    }
+    .travel__div{
+      display: none;
+      
+    }
+    .travel {
+      width: 100%;
+    }
+  
+    .tr_title {
+     display: none;
+
+    }
+
+    .tp {
+      display: none;
+    }
+
+    .footer__end {
+      display: none;
+    }
+
+    .footer__p3 {
+      display: none;
+
+    }
+
+    .sale__box_1 {
+      width: 100%;
+    }
+
+    .info_box_1 {
+      height: 250px;
+      color: #301D49;
+      width: 200px;
+      position: absolute;
+      top: 100px;
+      left: 50px;
+
+
+      font-size: 15px;
+    }
+
+    .entry__para_5 {
+      display: none;
+    }
+
+    .entry__para_6 {
+      display: none;
+    }
+    .sale__box_2 {
+          width: 100%;
+    }
+      
+    .search__box {
+      
+      
+      width: 90%;
+      gap: 20px;
+      align-items: center;
+      border: 2px rgb(175, 175, 175) solid;
+      border-radius: 50px;
+      padding: 5px;
+    }
+
+    .menu{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    
+    }
+  }
